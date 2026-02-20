@@ -62,28 +62,30 @@ This approach reduces blocking delays and improves scanning efficiency compared 
 
 From the project root directory:
 
+```bash
 g++ src/main.cpp src/scanner.cpp -o build/scanner.exe -lws2_32
+```
 
 Run the executable:
 
+```bash
 build\scanner.exe
-
+```
 ---
 
 ## Usage
 
 Example input:
-
+```bash
 Enter target IP: 127.0.0.1  
 Enter start port: 1  
 Enter end port: 100  
-
+```
 Example output:
-
+```bash
 Scanning 127.0.0.1...
-
 [OPEN] Port 8000
-
+```
 Scan complete.
 
 ---
